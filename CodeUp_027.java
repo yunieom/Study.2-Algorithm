@@ -1,0 +1,18 @@
+package codeUp;
+
+import java.util.Scanner;
+
+public class CodeUp_027 {
+
+	public static void main(String[] args) {
+		
+		long a;
+		Scanner sc = new Scanner(System.in);
+		
+		a = sc.nextLong();
+		sc.close();
+		System.out.printf("%d",a);
+
+	}
+
+}

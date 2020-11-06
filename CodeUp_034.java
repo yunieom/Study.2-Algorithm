@@ -6,12 +6,12 @@ public class CodeUp_034 {
 
 	public static void main(String[] args) {
 		
-		char s;
-		
+		int n;
+		String b;
 		
 		Scanner sc = new Scanner(System.in);
-		s = sc.next().charAt(0);
-		int n = (int)s;
+		b = sc.nextLine();
+		n = Integer.valueOf(b, 8); 
 		sc.close();
 		
 		System.out.printf("%d",n);

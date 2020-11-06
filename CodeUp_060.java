@@ -13,6 +13,6 @@ public class CodeUp_060 {
 		b = sc.nextInt();
 		sc.close();
 		
-		System.out.printf("%d", a^b);		
+		System.out.printf("%d", a&b);		
 	}	
 }		

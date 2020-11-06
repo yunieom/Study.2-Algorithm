@@ -6,19 +6,13 @@ public class CodeUp_075 {
 
 	public static void main(String[] args) {
 		
-		char a;
 		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		sc.close();
 		
-		
- 		
-		while(true) {
-			a = sc.next().charAt(0);
-			if(a=='q')
-				break;
+		while(a!=0) {	
+			a--;
 			System.out.println(a);
 		}
-		System.out.println("q");
-		
-		sc.close();
 	}	
 }

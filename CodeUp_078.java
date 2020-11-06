@@ -6,14 +6,16 @@ public class CodeUp_078 {
 
 	public static void main(String[] args) {
 		
-		int n,i;
+		int a;
+		int sum = 0;
 		Scanner sc = new Scanner(System.in);
-		n = sc.nextInt(16);
+		a = sc.nextInt();
 		sc.close();
-		
-		for( i=1; i<16; i++) {
-			System.out.printf("%X*%X=%X \n", n, i, n*i);
+ 		
+		for(int i=0; i<=a; i++) {
+			if(i%2 == 0) 
+				sum=sum+i;
 		}
-		
+		System.out.println(sum);
 	}	
 }

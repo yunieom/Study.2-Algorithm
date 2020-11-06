@@ -6,14 +6,14 @@ public class CodeUp_023 {
 
 	public static void main(String[] args) {
 		
+		String a;
 		Scanner sc = new Scanner(System.in);
-		String a = sc.next();
-		sc.close();
 		
-		for (int i=0; i<a.length(); i++) {
-			char c = a.charAt(i);
-			System.out.println("'"+c+"'");
-		}
+		a = sc.nextLine();
+		sc.close();
+		String[] time = a.split("[.]");
+		System.out.println(Integer.parseInt(time[0]));
+		System.out.println(Integer.parseInt(time[1]));
 	}
 
 }

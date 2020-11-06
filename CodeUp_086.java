@@ -5,24 +5,16 @@ import java.util.Scanner;
 public class CodeUp_086 {
 
 	public static void main(String[] args)  {
-		long a, r;
-		int n;
-		
+		long r,g,b;
+		float memory = 0;
 		Scanner sc = new Scanner(System.in);
-		a = sc.nextLong();
 		r = sc.nextLong();
-		n = sc.nextInt();
+		g = sc.nextLong();
+		b = sc.nextLong();
 		sc.close();
-		long[] ans = new long[n];
-	
-		for(int i=0; i<n; i++) {
-				ans[i] = a;
-				if(i!=0) {
-					a=a*r;
-					ans[i] = a;
-				}
-		}
-		System.out.println(ans[n-1]);
 		
+		memory = r*g*b;
+		System.out.printf("%.2f MB", memory/(8*1024*1024)); // 8bit = 1byte, 1024byte = 1KB, 1024KB = 1MB 
+
 	}	
 }

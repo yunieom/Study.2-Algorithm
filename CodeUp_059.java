@@ -6,13 +6,12 @@ public class CodeUp_059 {
 
 	public static void main(String[] args) {
 		
-		int a,b;
+		int a;
 		
 		Scanner sc = new Scanner(System.in);
 		a = sc.nextInt();
-		b = sc.nextInt();
 		sc.close();
 		
-		System.out.printf("%d", a|b);		
+		System.out.printf("%d", ~a);		
 	}	
 }		

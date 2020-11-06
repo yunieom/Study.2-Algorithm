@@ -10,6 +10,7 @@ public class CodeUp_013 {
 		
 		a = sc.nextInt();
 		b = sc.nextInt();
+		sc.close();
 		System.out.printf("%d %d", a, b);
 	}
 

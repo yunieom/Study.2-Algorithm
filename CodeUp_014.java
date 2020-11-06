@@ -10,6 +10,7 @@ public class CodeUp_014 {
 		
 		x = sc.next().charAt(0);
 		y = sc.next().charAt(0);
+		sc.close();
 		System.out.printf("%c %c", y, x);
 	}
 

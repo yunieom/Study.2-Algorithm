@@ -9,8 +9,10 @@ public class CodeUp_019 {
 		Scanner sc = new Scanner(System.in);
 		
 		a = sc.nextLine();
-		String[] date = a.split("[-]");
-		System.out.print(date[0]+date[1]);
+		sc.close();
+		
+		String[] date = a.split("[.]");
+		System.out.format("%04d.%02d.%02d", Integer.parseInt(date[0]), Integer.parseInt(date[1]),Integer.parseInt(date[2]));
 	}
 
 }

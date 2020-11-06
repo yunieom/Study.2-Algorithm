@@ -6,12 +6,13 @@ public class CodeUp_027 {
 
 	public static void main(String[] args) {
 		
-		long a;
+		String a;
 		Scanner sc = new Scanner(System.in);
 		
-		a = sc.nextLong();
+		a = sc.nextLine();
 		sc.close();
-		System.out.printf("%d",a);
+		String[] date = a.split("[.]");
+		System.out.format("%02d-%02d-%04d", Integer.parseInt(date[2]), Integer.parseInt(date[1]),Integer.parseInt(date[0]));
 
 	}
 

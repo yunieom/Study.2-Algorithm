@@ -11,7 +11,7 @@ public class CodeUp_031 {
 		n = sc.nextInt();
 		sc.close();
 		
-		System.out.printf("%X",n);
+		System.out.printf("%o",n);
 
 	}
 

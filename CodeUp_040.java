@@ -6,15 +6,12 @@ public class CodeUp_040 {
 
 	public static void main(String[] args) {
 		
-		int a,b;
-		
+		int a;
 		Scanner sc = new Scanner(System.in);
 		a = sc.nextInt();
-		b = sc.nextInt();
 		sc.close();
-		long n = a/b;
-
-		System.out.println(n);
+		
+		System.out.println(-a);
 		
 
 	}

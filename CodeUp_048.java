@@ -12,11 +12,7 @@ public class CodeUp_048 {
 		a = sc.nextInt();
 		b = sc.nextInt();
 		sc.close();
-		
-		if(a==b) {
-			System.out.println(1);
-		}else {
-			System.out.println(0);
-		}
+
+		System.out.printf("%d", a<<b ); // << 가 기본적으로 2를 곱해주는데 2의 b승 값이 곱해진다. 예) a = 1 , b = 10; 1 * 2의 10승 = 1024 출력
 	}	
 }

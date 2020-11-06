@@ -9,6 +9,7 @@ public class CodeUp_012 {
 		Scanner sc = new Scanner(System.in);
 		
 		x = sc.nextFloat();
+		sc.close();
 		System.out.printf("%f", x); //소수 출력 
 	}
 

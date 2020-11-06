@@ -9,6 +9,7 @@ public class CodeUp_015 {
 		Scanner sc = new Scanner(System.in);
 		
 		a = sc.nextFloat();
+		sc.close();
 		System.out.printf("%.2f", a);
 	}
 

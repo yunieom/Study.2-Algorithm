@@ -13,7 +13,7 @@ public class CodeUp_056 {
 		b = sc.nextInt();
 		sc.close();
 		
-		if(a==0 && b==0) {
+		if(a!=b) {
 			System.out.println(1);
 		}else {
 			System.out.println(0);	

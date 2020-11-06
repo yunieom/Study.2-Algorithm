@@ -4,23 +4,19 @@ import java.util.Scanner;
 
 public class CodeUp_083 {
 
-	public static void main(String[] args)  {
-		int n,i;
-		int sum = 0;
+	public static void main(String[] args) {
+		
+		int n;
 		Scanner sc = new Scanner(System.in);
 		n = sc.nextInt();
 		sc.close();
 		
-		for(i=0; i<n; i++) {
-			sum+=i;
-			if(sum>=n)
-				break;
-			if(n==1) {
-				sum = 1;
-				break;
+		for(int i=1; i<=n; i++) {
+			if(i%3==0 ||  i%6==0 || i%9==0 ) {
+				System.out.print("X ");
+			}else {
+				System.out.printf("%d ", i);
 			}
-				
 		}
-		System.out.println(sum);
 	}	
 }

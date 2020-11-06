@@ -6,16 +6,13 @@ public class CodeUp_044 {
 
 	public static void main(String[] args) {
 		
-		int a,b,c;
+		long n;
 		
 		Scanner sc = new Scanner(System.in);
-		a = sc.nextInt();
-		b = sc.nextInt();
-		c = sc.nextInt();
+		n = sc.nextLong();
 		sc.close();
-		double d = (double)(a+b+c)/3;
 
-		System.out.println(a+b+c);
-		System.out.printf("%.1f", d);
-	}	
+		System.out.printf("%d", ++n);
+	}
+
 }

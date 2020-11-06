@@ -13,6 +13,6 @@ public class CodeUp_061 {
 		b = sc.nextInt();
 		sc.close();
 		
-		System.out.printf("%d", a>b ? a:b);		
+		System.out.printf("%d", a|b);		
 	}	
 }		

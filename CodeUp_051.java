@@ -6,16 +6,17 @@ public class CodeUp_051 {
 
 	public static void main(String[] args) {
 		
-		int a;
+		int a,b;
 		
 		Scanner sc = new Scanner(System.in);
 		a = sc.nextInt();
+		b = sc.nextInt();
 		sc.close();
 		
-		if(a==0) {
+		if(a<=b) {
 			System.out.println(1);
 		}else {
-			System.out.println(0);	
+			System.out.println(0);
 		}
 	}	
-}		
+}

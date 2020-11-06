@@ -6,15 +6,14 @@ public class CodeUp_077 {
 
 	public static void main(String[] args) {
 		
-		int n,m;
-		int i,j;
+		int a;
 		Scanner sc = new Scanner(System.in);
-		n = sc.nextInt();
-		m = sc.nextInt();
+		a = sc.nextInt();
 		sc.close();
-		
-		for(i=1; i<=n; i++)
-			for(j=1;j<=m; j++)
-				System.out.printf("%d %d \n", i, j);
+ 		
+		for(int i=0; i<=a; i++) {
+			System.out.println(i);
+		}
+	
 	}	
 }

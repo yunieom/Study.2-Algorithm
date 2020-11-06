@@ -6,34 +6,22 @@ public class CodeUp_068 {
 
 	public static void main(String[] args) {
 		
-		int month;
+		int score;
 		
 		Scanner sc = new Scanner(System.in);
-		month = sc.nextInt();
+		score = sc.nextInt();
 		sc.close();
-	
 		
-		switch(month) 
-		{
-		case 3 : 
-		case 4 : 
-		case 5 : 
-						System.out.println("spring");
-						break;
-		case 6 : 
-		case 7 : 
-		case 8 : 
-						System.out.println("summer");
-						break;
-		case 9 :				
-		case 10 :				
-		case 11 :
-						System.out.println("fall");
-						break;
-						
-		default : System.out.println("winter");
-					break;
-		}
 		
+			if (score >= 90) {
+				System.out.println("A");
+			}else if (score >= 70   ) {
+				System.out.println("B");
+			}else if (score >= 40) {
+				System.out.println("C");
+			}else {
+				System.out.println("D");
+			}
+ 	
 	}	
-}
+}		

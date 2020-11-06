@@ -4,17 +4,16 @@ import java.util.Scanner;
 
 public class CodeUp_082 {
 
-	public static void main(String[] args)  {
-		long r,g,b;
-		float memory = 0;
+	public static void main(String[] args) {
+		
+		int n,i;
 		Scanner sc = new Scanner(System.in);
-		r = sc.nextLong();
-		g = sc.nextLong();
-		b = sc.nextLong();
+		n = sc.nextInt(16);
 		sc.close();
 		
-		memory = r*g*b;
-		System.out.printf("%.2f MB", memory/(8*1024*1024)); // 8bit = 1byte, 1024byte = 1KB, 1024KB = 1MB 
-
+		for( i=1; i<16; i++) {
+			System.out.printf("%X*%X=%X \n", n, i, n*i);
+		}
+		
 	}	
 }

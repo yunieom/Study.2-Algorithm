@@ -13,6 +13,10 @@ public class CodeUp_058 {
 		b = sc.nextInt();
 		sc.close();
 		
-		System.out.printf("%d", a&b);		
+		if(a==0 && b==0) {
+			System.out.println(1);
+		}else {
+			System.out.println(0);	
+		}
 	}	
 }		

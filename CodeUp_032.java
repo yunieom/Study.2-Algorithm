@@ -7,14 +7,11 @@ public class CodeUp_032 {
 	public static void main(String[] args) {
 		
 		int n;
-		String b;
-		
 		Scanner sc = new Scanner(System.in);
-		b = sc.nextLine();
-		n = Integer.valueOf(b, 8); 
+		n = sc.nextInt();
 		sc.close();
 		
-		System.out.printf("%d",n);
+		System.out.printf("%x",n);
 
 	}
 

@@ -6,15 +6,16 @@ public class CodeUp_039 {
 
 	public static void main(String[] args) {
 		
-		char s;
+		long a;
+		long b;
 		
 		Scanner sc = new Scanner(System.in);
-		s = sc.next().charAt(0);
+		a = sc.nextLong();
+		b = sc.nextLong();
 		sc.close();
-		char d = (char) (s+1);
 		
-		System.out.println(d);
-		
+		long total = a+b;
+		System.out.println(total);
 
 	}
 

@@ -6,12 +6,21 @@ public class CodeUp_045 {
 
 	public static void main(String[] args) {
 		
-		int a;
+		int a,b;
+		double c;
 		
 		Scanner sc = new Scanner(System.in);
 		a = sc.nextInt();
+		b = sc.nextInt();
 		sc.close();
+		c = (double)a/b;
+		
 
-		System.out.printf("%d", a<<1 ); // a=1024 일시 2048 출력 
+		System.out.println(a+b);
+		System.out.println(a-b);
+		System.out.println(a*b);
+		System.out.println(a/b);
+		System.out.println(a%b);
+		System.out.printf("%.2f",c);
 	}	
 }

@@ -6,18 +6,25 @@ public class CodeUp_069 {
 
 	public static void main(String[] args) {
 		
-		int a;
+		String grade;
 		
 		Scanner sc = new Scanner(System.in);
-		
-		
-		while(true) {
-			a = sc.nextInt();
-			
-			if(a==0)
-				break;
-			System.out.println(a);
-		}
+		grade = sc.next();
 		sc.close();
+		
+		switch(grade) 
+		{
+		case "A" : System.out.println("best!!!");
+						break;
+		case "B" : System.out.println("good!!");
+						break;
+		case "C" : System.out.println("run!");
+						break;
+		case "D" : System.out.println("slowly~");
+						break;
+		default : System.out.println("what?");
+					break;
+		}
+		
 	}	
 }		

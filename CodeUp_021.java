@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class CodeUp_021 {
 
 	public static void main(String[] args) {
+		String a;
+		Scanner sc = new Scanner(System.in);
+		a = sc.next();
+		sc.close();
 		
-	String data;
-	Scanner sc = new Scanner(System.in);
+		System.out.println(a);
 	
-	data = sc.nextLine();
-	sc.close();
-	System.out.println(data);
 	}
 
 }

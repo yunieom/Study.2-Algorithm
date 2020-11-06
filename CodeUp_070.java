@@ -6,17 +6,34 @@ public class CodeUp_070 {
 
 	public static void main(String[] args) {
 		
-		Scanner sc = new Scanner(System.in);
-		int a = sc.nextInt();
-		int[] c = new int[a];
-	
-		for(int i=0; i<a; i++) {
-			c[i] = sc.nextInt();
-		}
-		sc.close();
+		int month;
 		
-		for(int j=0; j<c.length; j++) {
-			System.out.println(c[j]);
+		Scanner sc = new Scanner(System.in);
+		month = sc.nextInt();
+		sc.close();
+	
+		
+		switch(month) 
+		{
+		case 3 : 
+		case 4 : 
+		case 5 : 
+						System.out.println("spring");
+						break;
+		case 6 : 
+		case 7 : 
+		case 8 : 
+						System.out.println("summer");
+						break;
+		case 9 :				
+		case 10 :				
+		case 11 :
+						System.out.println("fall");
+						break;
+						
+		default : System.out.println("winter");
+					break;
 		}
+		
 	}	
 }

@@ -2,7 +2,7 @@ package programmers;
 
 import java.util.Scanner;
 
-public class Programmers_Lv1_018 {
+public class Programmers_Lv2_002 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println(solution(sc.nextLine()));

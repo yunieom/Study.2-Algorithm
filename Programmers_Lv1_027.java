@@ -6,9 +6,9 @@ public class Programmers_Lv1_027 {
 		//  x만큼 간격이 있는 n개의 숫자
 		
 		long x = 2;
-		long n = 5; 
-		long temp[] = new long [(int)n+1]; // 반복문 시작이 1이므로 1칸 배열 1칸 추가
-		long answer[] = new long [(int)n];
+		int n = 5; 
+		long temp[] = new long [n+1]; // 반복문 시작이 1이므로 1칸 배열 1칸 추가
+		long answer[] = new long [n];
 		
 	
 		for(int j=1; j<=n; j++) { // 1부터 배열의 인덱스는 n만큼이므로 n까지 돌기. 

@@ -1,4 +1,5 @@
-package programmers;import java.util.Arrays;
+package programmers;
+import java.util.Arrays;
 
 public class Programmers_Lv1_027 {
 	public static void main(String[] args) {

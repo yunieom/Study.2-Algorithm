@@ -1,28 +1,35 @@
 package programmers;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Programmers_Lv1_032 {
 	public static void main(String[] args) {
 		
-		// 정수 내림차순으로 배치하기
+		// 두 개 뽑아서 더하기
 		
-		long n = 118372;
-		String s = n+"";
-		long arr [] = new long [s.length()];
+		int numbers [] = {5,0,2,7};
+		ArrayList<Integer> list = new ArrayList<Integer>();
 		
-		for(int i=0; i<s.length(); i++) {
-			arr[i] = s.charAt(i)-48;
+		for(int i=0; i<numbers.length-1; i++) {
+			for(int j=i+1; j<numbers.length; j++) {
+				int a = numbers[i] + numbers[j];
+				//indexOf method 공부하기 
+				if (list.indexOf(a) <0) {
+					list.add(a);
+				}
+			}
 		}
-		Arrays.sort(arr);
 		
-		String temp = "";
-		for(int i=arr.length-1; i>=0; i--) {
-			temp += arr[i];
-			System.out.println(arr[i]);
+		System.out.println(list);
+		int answer [] = new int [list.size()];
+		
+		for(int i=0; i<list.size(); i++) {
+			answer[i] = list.get(i);
 		}
-		long answer = Long.parseLong(temp);
+		Arrays.sort(answer);
 		System.out.println(answer);
+		
 		
 	}
 }

@@ -6,3 +6,5 @@ function getDouble(str1) {
 console.log(getDouble('abc') )
 console.log(getDouble('Welcome'))
 console.log(getDouble('double'))
+
+//깃헙 컨트리뷰션 

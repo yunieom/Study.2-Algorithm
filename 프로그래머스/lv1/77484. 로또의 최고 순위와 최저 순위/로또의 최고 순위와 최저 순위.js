@@ -8,8 +8,9 @@ function solution(lottos, win_nums) {
       min++;
     }
   }
+  let max = zero + min;
 
-  answer[0] = zero + min > 1 ? 7 - (zero + min) : 6;
+  answer[0] = max > 1 ? 7 - max : 6;
   answer[1] = min > 1 ? 7 - min : 6;
 
   return answer;

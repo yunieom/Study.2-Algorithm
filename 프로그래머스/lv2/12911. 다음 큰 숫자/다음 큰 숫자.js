@@ -10,9 +10,9 @@ function solution(n) {
         return count;
     }
 
-    const targetCount = countOne(n); 
+    const nextCount = countOne(n); 
     for (let i=n+1; ; i++) {
-        if (countOne(i) === targetCount) {
+        if (countOne(i) === nextCount) {
             return i;
         }
     }

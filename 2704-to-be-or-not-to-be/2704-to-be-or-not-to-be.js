@@ -8,7 +8,7 @@ var expect = function(val) {
             if(val!==val2) {
                 throw new Error("Not Equal");
             }
-        return true;
+            return true;
         },
         notToBe: (val2) => {
             if(val===val2) {

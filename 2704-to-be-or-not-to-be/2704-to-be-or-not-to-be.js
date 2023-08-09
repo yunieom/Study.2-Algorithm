@@ -7,7 +7,7 @@ var expect = function(val) {
         toBe: (val2) => {
             if(val!==val2) {
                 throw new Error("Not Equal");
-        }
+            }
         return true;
         },
         notToBe: (val2) => {
